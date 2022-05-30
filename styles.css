@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    margin: 40px;
+}
+
+.mainTitle {
+    margin-bottom: 24px;
+    color: steelblue;
+}
+
+table {
+    /* border: solid 1px steelblue; */
+    border-collapse: collapse;
+}
+
+th, td {
+    box-sizing: border-box;
+    border: solid 1px steelblue;
+    padding: 12px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+
+.top_row {
+    background-color: steelblue;
+    color: white;
+}
+
+.top_row th {
+    border-right: solid 1px white;
+}
+
+.top_row th:last-of-type {
+    border-right: solid 1px steelblue;
+}
